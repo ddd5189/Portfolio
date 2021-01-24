@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Portfolio | Drew Donovan</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- external script files -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <h1 class="container-fluid text-center ht-1 pb-4 mb-0" id="header">
+            Drew Donovan<br>
+            <!-- class makes it so when the screen gets to small this disapears -->
+            <small class="d-none d-md-block">Game Designer/Developer</small>
+        </h1>
+    </header>
+    <!-- navigation -->
+    <!-- bootstrap navbar styling -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="navbar">
+        <a class="navbar-brand" href="index.html#header">
+            <img src="media/RIT-logo2.png" width="30" height="30" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav mr-auto container-fluid row text-center">
+                <li class="nav-item col-sm" id="b1">
+                    <a class="nav-link active" href="index.html#about">About Me<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item col-sm" id="b2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="index.html#pro1">Firing Range</a>
+                        <a class="dropdown-item" href="index.html#pro2">Activity Generator</a>
+                        <a class="dropdown-item" href="index.html#pro3">Asteroids</a>
+                        <a class="dropdown-item" href="index.html#pro4">Beat Beater</a>
+                        <a class="dropdown-item" href="index.html#pro5">A Journey Home</a>
+                        <a class="dropdown-item" href="index.html#pro6">Phylotaxis Sandbox</a>
+                        <a class="dropdown-item" href="index.html#pro7">Audio Visualizer</a>
+                        <a class="dropdown-item" href="index.html#pro8">Crime Map</a>
+                        <a class="dropdown-item" href="index.html#pro9">Killman's Keep</a>
+                        <a class="dropdown-item" href="index.html#pro10">The 7 Horcruxes</a>
+                        <a class="dropdown-item" href="index.html#pro11">Backyard</a>
+                    </div>
+                </li>
+                <li class="nav-item col-sm" id="b3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Resumes
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="media/Drew Donovan Resume GDD MAIN.pdf" target="_blank">Resume for Game Developer<span class="sr-only"></a>
+                        <a class="dropdown-item" href="media/Drew Donovan Resume Software MAIN.pdf MAIN.pdf" target="_blank">Resume for Software Developer<span class="sr-only"></a>
+                        <a class="dropdown-item" href="media/Drew Donovan Resume WebDev MAIN.pdf MAIN.pdf" target="_blank">Resume for Web Developer<span class="sr-only"></a>
+                    </div>
+                </li>
+                <li class="nav-item col-sm">
+                    <a class="nav-link" href="index.html#footer">Contact Me<span class="sr-only"></span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- content -->
+    <div class="container pt-2" id="content">
+        <div id="about">
+            <h2>About Me:</h2>
+            <img id="amImg" src="media/IMG_3292.JPG" alt="profile image">
+            <p><strong>Home Town:</strong> Pawcatuck, Connecticut</p>
+            <p><strong>High School:</strong> Stonington High School (SHS)</p>
+            <p><strong>College:</strong> Rochester Institute of Technology (RIT)</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/drew-donovan-92a39617b/" target="_blank">Profile</a></p>
+            <p>
+                Ever since I was a kid I always went to video games to lose myself and escape from the real world. It gave me a sanctuary to be myself and explore who I could be. Whether I had friends to play with or not, I was almost exclusivly either playing games,
+                or watching videos about them. For as long as I can remember whenever I thought about what I wanted to do, I never thought twice about becoming a Game Designer/Developer.
+                <br><br> Fortunatly for me, my high school had some Game Design and Development classes that I took as soon as posible. There I found a new type of enjoyment when it comes to video games, making them. I learned how to make simple games
+                using Game Maker, starting off with drag and drop and moving on to GML (Game Maker Language). While it isn't a popular language, it gave me an idea of what coding would be like.
+                <br><br> Unfortunatly my school only offered two levels of GDD classes. I tried to get a GDD independent study but it didn't work out. Alternatly, I took an independent study of Web Development (after taking Web Dev 1) and helped work
+                on my schools website.
+                <br><br> Now, I am curently a forth year student at Rochester Institute of Technology and am taking part in its Game Design and Development major. I have a particular passion for game design, but also enjoy coding. I have had the 
+                ability to work on multiple games as a game designer from physical to digital, and it's made it clear I'm in the right place. 
+            </p>
+        </div>
+        <h2 id="projects">Projects:</h2>
+        <div id="pro1">
+            <div class="d-block d-lg-none" id="frS">
+                <h3><u>Firing Range</u></h3>
+                <img src="media/Firing Range.JPG" alt="project image">
+                <p><strong>Tools:</strong> Visual Studio Code, FileZilla, Bootstrap</p>
+                <p><strong>Role:</strong> Solo</p>
+                <p><strong>Link:</strong> <a href="https://people.rit.edu/ddd5189/230/project4/" target="_blank">Website</a></p>
+                <p><strong>Languages:</strong> HTML, CSS, javaScript, PIXI</p>
+                <p><strong>Description:</strong> Firing Range is a javascript game, where the player tests their skills in a virtual 2D firing range. There are multiple games modes, as well as practice modes for each of the three difficulties and their
+                    associated three predetermined levels. The game itself is located within a webpage describing the mechanics and gameplay.</p>
+            </div>
+            <div class="d-none d-lg-block d-xl-block" id="frL">
+                <img src="media/Firing Range.JPG" alt="project image">
+                <h3><u>Firing Range</u></h3>
+                <p><strong>Tools:</strong> Visual Studio Code, FileZilla, Bootstrap</p>
+                <p><strong>Role:</strong> Solo</p>
+                <p><strong>Link:</strong> <a href="https://people.rit.edu/ddd5189/230/FiringRange/" target="_blank">Website</a></p>
+                <p><strong>Languages:</strong> HTML, CSS, javaScript, PIXI</p>
+                <p><strong>Description:</strong> Firing Range is a javascript game, where the player tests their skills in a virtual 2D firing range. There are multiple games modes, as well as practice modes for each of the three difficulties and their
+                    associated three predetermined levels. The game itself is located within a webpage describing the mechanics and gameplay.</p>
+            </div>
+
+        </div>
+        <div class="pro" id="pro2">
+            <div class="d-block d-lg-none" id="agS">
+                <h3><u>Activity Generator</u></h3>
+                <img src="media/Activity Generator.JPG" alt="project image">
+                <p><strong>Tools:</strong> Visual Studio Code, FileZilla, Bootstrap</p>
+                <p><strong>Role:</strong> Desinger/Styler and Programmer</p>
+                <p><strong>Link:</strong> <a href="https://people.rit.edu/ddd5189/230/project2/main.html" target="_blank">Website</a></p>
+                <p><strong>Languages:</strong> HTML, CSS, javaScript, jQuery</p>
+                <p><strong>Description:</strong> Activity Generator is a simple webpage that uses an API to give the user a random activity to do if they are bored. The generator is also configurable and allows the user to 
+                    adjust their search settings to help them find an activity that they could possibly do. There are settings for cost, number of participants, difficulty and what category of activity you would like, from, DIY and Cooking 
+                    to Recreational and Busywork.</p>
+            </div>
+            <div class="d-none d-lg-block d-xl-block" id="agL">
+                <img src="media/Activity Generator.JPG" alt="project image">
+                <h3><u>Activity Generator</u></h3>
+                <p><strong>Tools:</strong> Visual Studio Code, FileZilla, Bootstrap</p>
+                <p><strong>Role:</strong> Desinger/Styler and Programmer</p>
+                <p><strong>Link:</strong> <a href="https://people.rit.edu/ddd5189/230/project2/main.html" target="_blank">Website</a></p>
+                <p><strong>Languages:</strong> HTML, CSS, javaScript, jQuery</p>
+                <p><strong>Description:</strong> Activity Generator is a simple webpage that uses an API to give the user a random activity to do if they are bored. The generator is also configurable and allows the user to 
+                    adjust their search settings to help them find an activity that they could possibly do. There are settings for cost, number of participants, difficulty and what category of activity you would like, from, DIY and Cooking 
+                    to Recreational and Busywork.</p>
+            </div>
+
+        </div>
+        <div class="pro" id="pro3">
+            <div class="d-block d-lg-none" id="aS">
+                <h3><u>Asteroids</u></h3>
+                <img src="media/Asteroids.JPG" alt="project image">
+                <p><strong>Tools:</strong> Unity, Visual Studio</p>
+                <p><strong>Role:</strong> Solo</p>
+                <p><strong>Link:</strong> None</p>
+                <p><strong>Languages:</strong> C#</p>
+                <p><strong>Description:</strong> Asteroids is a simple recreation of the classic with the same name. This was an in-class project that required me to utilize mecahnics such as, vehicle movement, bullet firing, wrapping and collision detection.
+                    I also added a shield powerup, which when hit by the player, they are given 3 free hits from asteroids.</p>
+            </div>
+            <div class="d-none d-lg-block d-xl-block" id="aL">
+                <img src="media/Asteroids.JPG" alt="project image">
+                <h3><u>Asteroids</u></h3>
+                <p><strong>Tools:</strong> Unity, Visual Studio</p>
+                <p><strong>Role:</strong> Solo</p>
+                <p><strong>Link:</strong> None</p>
+                <p><strong>Languages:</strong> C#</p>
+                <p><strong>Description:</strong> Asteroids is a simple recreation of the classic with the same name. This was an in-class project that required me to utilize mecahnics such as, vehicle movement, bullet firing, wrapping and collision detection.
+                    I also added a shield powerup, which when hit by the player, they are given 3 free hits from asteroids.</p>
+            </div>
+
+        </div>
+        <div class="pro" id="pro4">
+            <div class="d-block d-lg-none" id="bbS">
+                <h3><u>Beat Beater</u></h3>
+                <img src="media/Beat Beater.JPG" alt="project image">
+                <p><strong>Tools:</strong> MonoGame, Visual Studio</p>
+                <p><strong>Role:</strong> Game Desinger</p>
+                <p><strong>Link:</strong> None</p>
+                <p><strong>Languages:</strong> C#</p>
+                <p><strong>Description:</strong> Beat Beater is a music based bullet hell game. The gameplay consists of either shooting or dodging your way through an onslaught of bullets with varying patterns that are based on the music coming to destroy you.
+                    There are power-ups that spawn randomly that the player can use to help them succeed, such as, sheilds, multi-shot, and a speed boost.</p>
+            </div>
+            <div class="d-none d-lg-block d-xl-block" id="bbL">
+                <img src="media/Beat Beater.JPG" alt="project image">
+                <h3><u>Beat Beater</u></h3>
+                <p><strong>Tools:</strong> MonoGame, Visual Studio</p>
+                <p><strong>Role:</strong> Game Desinger</p>
+                <p><strong>Link:</strong> None</p>
+                <p><strong>Languages:</strong> C#</p>
+                <p><strong>Description:</strong> Beat Beater is a music based bullet hell game. The gameplay consists of either shooting or dodging your way through an onslaught of bullets with varying patterns that are based on the music coming to destroy you.
+                    There are power-ups that spawn randomly that the player can use to help them succeed, such as, sheilds, multi-shot, and a speed boost.</p>
+            </div>
+
+        </div>
+        <div class="pro" id="pro5">
+            <div class="d-block d-lg-none" id="jhS">
+                <h3><u>A Journey Home</u></h3>
+                <img src="media/AJH.JPG" alt="project image">
+                <p><strong>Tools:</strong> Photoshop, Unity (Template)</p>
+                <p><strong>Role:</strong> Asset Creater</p>
+                <p><strong>Link:</strong> <a href="https://www.youtube.com/watch?v=UR9Q3a71ldY&feature=youtu.be" target="_blank">Animated Cutscene</a></p>
+                <p><strong>Languages:</strong> None</p>
+                <p><strong>Description:</strong> A Journey Home is a game concept that I created to facilitate my creation of assets for a provided Unity Template for an in-class project. The premise is, in the distant future man finds away to go to pluto.
+                    When they get there, they couldn't have posibly known what would be waiting for them. A monster attacks their group and the lone survivor must somehow make his way back to earth.</p>
+            </div>
+            <div class="d-none d-lg-block d-xl-block" id="jhL">
+                <img src="media/AJH.JPG" alt="project image">
+                <h3><u>A Journey Home</u></h3>
+                <p><strong>Tools:</strong> Photoshop, Unity (Template)</p>
+                <p><strong>Role:</strong> Asset Creater</p>
+                <p><strong>Link:</strong> <a href="https://www.youtube.com/watch?v=UR9Q3a71ldY&feature=youtu.be" target="_blank">Animated Cutscene</a></p>
+                <p><strong>Languages:</strong> N/A</p>
+                <p><strong>Description:</strong> A Journey Home is a game concept that I created to facilitate my creation of assets for a provided Unity Template for an in-class project. The premise is, in the distant future man finds away to go to pluto.
+                    When they get there, they couldn't have posibly known what would be waiting for them. A monster attacks their group and the lone survivor must somehow make his way back to earth.</p>
+            </div>
+        </div>
+        <div class="pro" id="pro6">
+            <div class="d-block d-lg-none" id="jhS">
+                <h3><u>Phylotaxis Sandbox</u></h3>
+                <img src="media/PSand.JPG" alt="project image">
+                <p><strong>Tools:</strong> Visual Studio Code, Canvas</p>
+                <p><strong>Role:</strong> Solo</p>
+                <p><strong>Link:</strong> <a href="https://people.rit.edu/ddd5189/330/project1/" target="_blank">Website</a></p>
+                <p><strong>Languages:</strong> JavaScript, HTML/CSS</p>
+                <p><strong>Description:</strong> Phylotaxis Sandbox is a website that allows the user to explore Phylotaxis, a natural pattern that occurts in plants. The user is given multiple controls that they can manipulate to change the patterns 
+                    and colors of the animation. Users can make beautiful works of art in just a bit of time messing around.</p>
+            </div>
+            <div class="d-none d-lg-block d-xl-block" id="jhL">
+                <img src="media/PSand.JPG" alt="project image">
+                <h3><u>Phylotaxis Sandbox</u></h3>
+                <p><strong>Tools:</strong> Visual Studio Code, Canvas</p>
+                <p><strong>Role:</strong> Solo</p>
+                <p><strong>Link:</strong> <a href="https://people.rit.edu/ddd5189/330/project1/" target="_blank">Website</a></p>
+                <p><strong>Languages:</strong> JavaScript, HTML/CSS</p>
+                <p><strong>Description:</strong> Phylotaxis Sandbox is a website that allows the user to explore Phylotaxis, a natural pattern that occurts in plants. The user is given multiple controls that they can manipulate to change the patterns 
+                    and colors of the animation. Users can make beautiful works of art in just a bit of time messing around.</p>
+            </div>
+        </div>
+        <div class="pro" id="pro7">
+            <div class="d-block d-lg-none" id="jhS">
+                <h3><u>Audio Visualizer</u></h3>
+                <img src="media/AV_img.JPG" alt="project image">
+                <p><strong>Tools:</strong> Visual Studio Code, Canvas, WebAudio API</p>
+                <p><strong>Role:</strong> Solo</p>
+                <p><strong>Link:</strong> <a href="https://people.rit.edu/ddd5189/330/project2/" target="_blank">Website</a></p>
+                <p><strong>Languages:</strong> JavaScript, HTML/CSS</p>
+                <p><strong>Description:</strong> Audio Visualizer is a web page that uses WebAudio API to turn an audio file into an attrative display. The user is given multiple controls to change the way the audio is displayed, and has the choice 
+                    of a preset catalouge of music options.</p>
+            </div>
+            <div class="d-none d-lg-block d-xl-block" id="jhL">
+                <img src="media/AV_img.JPG" alt="project image">
+                <h3><u>Audio Visualizer</u></h3>
+                <p><strong>Tools:</strong> Visual Studio Code, Canvas, WebAudio API</p>
+                <p><strong>Role:</strong> Solo</p>
+                <p><strong>Link:</strong> <a href="https://people.rit.edu/ddd5189/330/project2/" target="_blank">Website</a></p>
+                <p><strong>Languages:</strong> JavaScript, HTML/CSS</p>
+                <p><strong>Description:</strong> Audio Visualizer is a web page that uses WebAudio API to turn an audio file into an attrative display. The user is given multiple controls to change the way the audio is displayed, and has the choice 
+                    of a preset catalouge of music options.</p>
+            </div>
+        </div>
+        <div class="pro" id="pro8">
+            <div class="d-block d-lg-none" id="jhS">
+                <h3><u>Crime Map</u></h3>
+                <img src="media/CM_img.JPG" alt="project image">
+                <p><strong>Tools:</strong> Visual Studio Code, MapBox API, FBI API</p>
+                <p><strong>Role:</strong> Solo</p>
+                <p><strong>Link:</strong> <a href="https://people.rit.edu/ddd5189/330/project3/" target="_blank">Website</a></p>
+                <p><strong>Languages:</strong> JavaScript, HTML/CSS</p>
+                <p><strong>Description:</strong> Crime Map is a site that uses the MapBox and FBI APIs to allow the user to explore the United States and each states respective crime data. The user has controle over what crime data will be displayed for 
+                a given year, and by clicking on the state, it will show the information on file.</p>
+            </div>
+            <div class="d-none d-lg-block d-xl-block" id="jhL">
+                <img src="media/CM_img.JPG" alt="project image">
+                <h3><u>Crime Map</u></h3>
+                <p><strong>Tools:</strong> Visual Studio Code, MapBox API</p>
+                <p><strong>Role:</strong> Solo</p>
+                <p><strong>Link:</strong> <a href="https://people.rit.edu/ddd5189/330/project3/" target="_blank">Website</a></p>
+                <p><strong>Languages:</strong> JavaScript, HTML/CSS</p>
+                <p><strong>Description:</strong> Crime Map is a site that uses the MapBox and FBI APIs to allow the user to explore the United States and each states respective crime data. The user has controle over what crime data will be displayed for 
+                    a given year, and by clicking on the state, it will show the information on file.</p>
+            </div>
+        </div>
+        <div class="pro" id="pro9">
+            <div class="d-block d-lg-none" id="jhS">
+                <h3><u>Killman's Keep</u></h3>
+                <img src="media/Killman_img.JPG" alt="project image">
+                <p><strong>Tools:</strong> Board Game Set</p>
+                <p><strong>Role:</strong> Game Designer</p>
+                <p><strong>Link:</strong> <a href="media/Killman_RS.pdf" target="_blank">Rulesheet</a></p>
+                <p><strong>Languages:</strong> N/A</p>
+                <p><strong>Description:</strong> Killman's Keep is a competitive board game that has players traverse across a town and it's nearby Keep attempting to make the most money while staying alive. Players are always searching for 
+                    artificats to help them battle monsters they incounter in the Keep. Players are also given secret goals they can choose to complete for more money. In the center of the town there is a marketplace where 
+                    they can either sell artifacts they atained from monsters, or buy new ones that they think can help them.</p>
+            </div>
+            <div class="d-none d-lg-block d-xl-block" id="jhL">
+                <img src="media/Killman_img.JPG" alt="project image">
+                <h3><u>Killman's Keep</u></h3>
+                <p><strong>Tools:</strong> Board Game Set</p>
+                <p><strong>Role:</strong> Game Designer</p>
+                <p><strong>Link:</strong> <a href="media/Killman_RS.pdf" target="_blank">Rulesheet</a></p>
+                <p><strong>Languages:</strong> N/A</p>
+                <p><strong>Description:</strong> Killman's Keep is a competitive board game that has players traverse across a town and it's nearby Keep attempting to make the most money while staying alive. Players are always searching for 
+                    artificats to help them battle monsters they incounter in the Keep. Players are also given secret goals they can choose to complete for more money. In the center of the town there is a marketplace where 
+                    they can either sell artifacts they atained from monsters, or buy new ones that they think can help them.</p>
+            </div>
+        </div>
+        <div class="pro" id="pro10">
+            <div class="d-block d-lg-none" id="jhS">
+                <h3><u>The 7 Horcruxes</u></h3>
+                <img src="media/7H_img.JPG" alt="project image">
+                <p><strong>Tools:</strong> Board Game Set, Figma</p>
+                <p><strong>Role:</strong> Game Designer</p>
+                <p><strong>Link:</strong> <a href="media/7H_RS.pdf" target="_blank">Rulesheet</a>, <a href="media/7H_ES.pdf" target="_blank">Event Sheet</a></p>
+                <p><strong>Languages:</strong> N/A</p>
+                <p><strong>Description:</strong> The 7 Horcruxes is a cooperative adventure game that takes place in the world of Harry Potter. Utilzing a machanic simalar to Betrayal in the House on the Hill, players build the map as they explore, never
+                    knowing what's around each corner. As they traverse the map they stumble across items that help them and events that may not. Players may also stumble upon Horcruxes that they will need to destroy in order to win. All the while, in
+                    the background Voldemort is there wrecking havoc, trying to prevent the players from achieving their goal.</p>
+            </div>
+            <div class="d-none d-lg-block d-xl-block" id="jhL">
+                <img src="media/7H_img.JPG" alt="project image">
+                <h3><u>The 7 Horcruxes</u></h3>
+                <p><strong>Tools:</strong> Board Game Set, Figma</p>
+                <p><strong>Role:</strong> Game Designer</p>
+                <p><strong>Link:</strong> <a href="media/7H_RS.pdf" target="_blank">Rulesheet</a>, <a href="media/7H_ES.pdf" target="_blank">Event Sheet</a></p>
+                <p><strong>Languages:</strong> N/A</p>
+                <p><strong>Description:</strong> The 7 Horcruxes is a cooperative adventure game that takes place in the world of Harry Potter. Utilzing a machanic simalar to Betrayal in the House on the Hill, players build the map as they explore, never
+                    knowing what's around each corner. As they traverse the map they stumble across items that help them and events that may not. Players may also stumble upon Horcruxes that they will need to destroy in order to win. All the while, in
+                    the background Voldemort is there wrecking havoc, trying to prevent the players from achieving their goal.</p>
+            </div>
+        </div>
+        <div class="pro" id="pro11">
+            <div class="d-block d-lg-none" id="jhS">
+                <h3><u>Backyard</u></h3>
+                <img src="" alt="project image">
+                <p><strong>Tools:</strong> Unity, Figma</p>
+                <p><strong>Role:</strong> Game, Level, and Co-Narrative Designer</p>
+                <p><strong>Link:</strong> N/A</p>
+                <p><strong>Languages:</strong> C#</p>
+                <p><strong>Description:</strong> Backyard is a game of perspective. Through the years time changes all, and this game explores what that looks likes in regards to a house and it's backyard. By exploring the backyard in different
+                moments in time, through different windows shifting perspectives and solving puzzles, the player learns of a childs life as they grew up. The game consists of three unique puzzles that allow them access throughout the house.
+                This gives them the ability to use more windows, which gives them new perspectives to view the backyard, as well as different times. By exploring and solving the puzzles, the player gains insight into the life of this child and 
+                how time impacted their life.</p>
+            </div>
+            <div class="d-none d-lg-block d-xl-block" id="jhL">
+                <img src="" alt="project image">
+                <h3><u>Backyard</u></h3>
+                <p><strong>Tools:</strong> Unity, Figma</p>
+                <p><strong>Role:</strong> Game, Level, and Co-Narrative Designer</p>
+                <p><strong>Link:</strong> N/A</p>
+                <p><strong>Languages:</strong> C#</p>
+                <p><strong>Description:</strong> Backyard is a game of perspective. Through the years time changes all, and this game explores what that looks likes in regards to a house and it's backyard. By exploring the backyard in different
+                    moments in time, through different windows shifting perspectives and solving puzzles, the player learns of a childs life as they grew up. The game consists of three unique puzzles that allow them access throughout the house.
+                    This gives them the ability to use more windows, which gives them new perspectives to view the backyard, as well as different times. By exploring and solving the puzzles, the player gains insight into the life of this child and 
+                    how time impacted their life.</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="container-fluid text-center pt-2" id="footer">
+        <h2>
+            <a href="https://people.rit.edu/ddd5189/230/src/mail_form.php" target="_blank"> Contact Me</a>
+        </h2>
+        <p>School Email:<a href="mailto:ddd5189@rit.edu"> ddd5189@rit.edu</a></p>
+        <p>Personal Email:<a href="mailto:ddonovan1212@me.com"> ddonovan1212@me.com</a></p>
+        <p>Cell Phone: (860) 204-1540</p>
+        <p>&copy; Drew Donovan 2021</p>
+    </footer>
+    <!-- javaScript -->
+    <script>
+        // making the navbar use active so the user can tell where they are
+        // Get the container element
+        var navContainer = document.getElementById("navbar");
+
+        // Get all the nav elements
+        var navs = navContainer.getElementsByClassName("nav-link");
+
+        // Loop through the nav elements and add the active class to the current/clicked nav element
+        for (var i = 0; i < navs.length; i++) {
+            navs[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+
+</body>
+
+</html>
